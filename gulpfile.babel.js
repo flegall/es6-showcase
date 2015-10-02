@@ -8,7 +8,7 @@ gulp.task('clean', () => {
     return del('build');
 });
 
-gulp.task('build', () => {
+gulp.task('build', ['clean'], () => {
     return gulp.src('src/**/*.js')
         .pipe(sourcemaps.init())
         .pipe(babel())
@@ -16,12 +16,11 @@ gulp.task('build', () => {
         .pipe(gulp.dest('build'));
 });
 
-gulp.task('test', function () {
-    return gulp.src('src/**/*.js', {read: false})
+gulp.task('test', ['build'], () => {
+    return gulp.src('build/**/*.js', {read: false})
         .pipe(mocha({
-            reporter: 'nyan',
-            compilers: 'js:babel/register'
+            reporter: 'nyan'
         }));
 });
 
-gulp.task('default', ['build', 'test'], () => {});
+gulp.task('default', ['test']);
