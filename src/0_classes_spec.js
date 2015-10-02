@@ -1,5 +1,5 @@
 import {chai, expect} from './imports';
-import {Shape, Circle} from './0_classes'
+import {Shape, Circle} from './0_classes';
 
 describe('Classes', () => {
     it('should have a constructor', () => {
