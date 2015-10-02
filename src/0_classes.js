@@ -9,11 +9,19 @@ export class Shape {
         this.x = x;
         this.y = y;
     }
+
+    toString() {
+        return `Shape(${this.id})`;
+    }
 }
 
 export class Circle extends Shape {
     constructor(id, x, y, radius) {
-        super(id, x, y)
-        this.radius = radius
+        super(id, x, y);
+        this.radius = radius;
+    }
+
+    toString() {
+        return "Rectangle > " + super.toString();
     }
 }
