@@ -1,6 +1,7 @@
-Classes
+Classes : OK
+
 Fat-Arrow : Litteral this
-Constants
+Var/Let/Constants
 Let : Block scoped variables
 Parameters handling
 Template Strings
