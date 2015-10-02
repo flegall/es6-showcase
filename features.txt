@@ -1,0 +1,17 @@
+Classes
+Fat-Arrow : Litteral this
+Constants
+Let : Block scoped variables
+Parameters handling
+Template Strings
+Destructuring assignments
+Modules
+Promises
+For of
+Iterators
+Generators
+Async/Await
+Map/Set + Weak versions
+Proxy
+Decorators
+
