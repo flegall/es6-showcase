@@ -16,6 +16,10 @@ export class Shape {
 }
 
 export class Circle extends Shape {
+    static defaultCircle() {
+        return new Circle('default', 10, 10, 5);
+    }
+
     constructor(id, x, y, radius) {
         super(id, x, y);
         this.radius = radius;

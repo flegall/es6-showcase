@@ -40,4 +40,12 @@ describe('Classes with inheritance', () => {
     });
 });
 
+describe('Static members', () => {
+    it('should allow having a Circle.defaultCircle() static method', () => {
+        let circle = Circle.defaultCircle();
+        expect(circle.x).to.equal(10);
+        expect(circle.y).to.equal(10);
+    })
+});
+
 
