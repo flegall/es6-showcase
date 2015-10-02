@@ -1,13 +1,19 @@
-import {chai, expect} from './imports';
+export class Shape {
+    constructor(id, x, y) {
+        this.id = id;
+        this.x = x;
+        this.y = y;
+    }
 
-export function test() {
-    console.log("test");
+    move(x, y) {
+        this.x = x;
+        this.y = y;
+    }
 }
 
-describe('test',() => {
-   it('should work', () => {
-       expect(1).to.equal(1)
-   });
-});
-
-
+export class Circle extends Shape {
+    constructor(id, x, y, radius) {
+        super(id, x, y)
+        this.radius = radius
+    }
+}
