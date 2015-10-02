@@ -1,0 +1,34 @@
+{
+  "name": "es6-showcase",
+  "version": "1.0.0",
+  "description": "ES6 showcase",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flegall/es6-showcase.git"
+  },
+  "author": "Florent Le Gall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flegall/es6-showcase/issues"
+  },
+  "homepage": "https://github.com/flegall/es6-showcase#readme",
+  "devDependencies": {
+    "babel": "5.8.23",
+    "babel-core": "5.8.25",
+    "babelify": "6.3.0",
+    "babylon": "5.8.23",
+    "browserify": "11.1.0",
+    "chai": "^3.3.0",
+    "del": "2.0.2",
+    "gulp": "3.9.0",
+    "gulp-babel": "5.2.1",
+    "gulp-concat": "2.6.0",
+    "gulp-mocha": "2.1.3",
+    "gulp-sourcemaps": "1.5.2",
+    "mocha": "2.3.3"
+  }
+}
