@@ -21,7 +21,8 @@ gulp.task('build', ['clean'], () => {
 gulp.task('test', ['build'], () => {
     return gulp.src('build/**/*.js', {read: false})
         .pipe(mocha({
-            reporter: 'spec'
+            reporter: 'spec',
+            require: ['source-map-support/register']
         }));
 });
 
