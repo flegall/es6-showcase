@@ -3,6 +3,8 @@ import babel       from 'gulp-babel';
 import sourcemaps  from 'gulp-sourcemaps';
 import del         from 'del';
 import mocha       from 'gulp-mocha';
+import watch       from 'gulp-watch';
+import batch       from 'gulp-batch';
 
 gulp.task('clean', () => {
     return del('build');
@@ -23,4 +25,10 @@ gulp.task('test', ['build'], () => {
         }));
 });
 
-gulp.task('default', ['test']);
+gulp.task('watch', function () {
+    watch('src/**/*.js', batch(function (events, done) {
+        gulp.start('test', done);
+    }));
+});
+
+gulp.task('default', ['watch']);
