@@ -11,8 +11,8 @@ Async/Await: OK
 For of: OK
 Iterators: OK
 Generators: OK
+Map/Set: OK
 
-Map/Set + Weak versions
 Proxy
 Decorators
 
