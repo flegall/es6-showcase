@@ -1,9 +1,9 @@
 Classes : OK
 Fat-Arrow : Litteral this: OK
 Template Strings: OK
+Var/Let/Constants: OK
+Parameters handling: OK
 
-Var/Let/Constants
-Parameters handling
 Destructuring assignments
 Modules
 Promises
