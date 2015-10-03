@@ -1,10 +1,9 @@
 Classes : OK
+Fat-Arrow : Litteral this: OK
+Template Strings: OK
 
-Fat-Arrow : Litteral this
 Var/Let/Constants
-Let : Block scoped variables
 Parameters handling
-Template Strings
 Destructuring assignments
 Modules
 Promises
@@ -12,6 +11,7 @@ For of
 Iterators
 Generators
 Async/Await
+
 Map/Set + Weak versions
 Proxy
 Decorators
