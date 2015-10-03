@@ -5,8 +5,8 @@ Var/Let/Constants: OK
 Parameters handling: OK
 Destructuring assignments: OK
 Enhanced object properties: OK
+Modules: OK
 
-Modules:
 Promises
 For of
 Iterators
