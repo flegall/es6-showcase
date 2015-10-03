@@ -6,12 +6,11 @@ Parameters handling: OK
 Destructuring assignments: OK
 Enhanced object properties: OK
 Modules: OK
-Promises : OK
-Async/Await : OK
-
-For of
-Iterators
-Generators
+Promises: OK
+Async/Await: OK
+For of: OK
+Iterators: OK
+Generators: OK
 
 Map/Set + Weak versions
 Proxy
