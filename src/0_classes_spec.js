@@ -48,4 +48,20 @@ describe('Static members', () => {
     })
 });
 
+describe('Getters and setters', () => {
+    it('getter should be present on Circle', () => {
+        let circle = Circle.defaultCircle();
+        expect(circle.abscisse).to.equal(10);
+        circle.x = 20;
+        expect(circle.abscisse).to.equal(20);
+    });
+
+    it('setter should be present on Circle', () => {
+        let circle = Circle.defaultCircle();
+        circle.abscisse = 20;
+        expect(circle.abscisse).to.equal(20);
+        expect(circle.x).to.equal(20);
+    })
+});
+
 

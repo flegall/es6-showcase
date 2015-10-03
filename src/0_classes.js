@@ -10,6 +10,14 @@ export class Shape {
         this.y = y;
     }
 
+    get abscisse() {
+        return this.x;
+    }
+
+    set abscisse(x) {
+        this.x = x;
+    }
+
     toString() {
         return `Shape(${this.id})`;
     }
