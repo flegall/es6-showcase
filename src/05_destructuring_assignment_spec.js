@@ -1,11 +1,11 @@
 import {chai, expect} from './imports';
 
-describe('Destructuring assignment', () => {
+describe.skip('Destructuring assignment', () => {
 
     it('arrays should be matched', () => {
         let list = [1, 2, 3];
 
-        var [a, b, c] = list;
+        // ???
 
         expect(a).to.equal(1);
         expect(b).to.equal(2);
@@ -19,7 +19,7 @@ describe('Destructuring assignment', () => {
             c: 3
         };
 
-        let {a, b, c} = object;
+        // ???
 
         expect(a).to.equal(1);
         expect(b).to.equal(2);

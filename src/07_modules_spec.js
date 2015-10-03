@@ -4,7 +4,7 @@ import {SEVEN, getSeven} from './07_modules';
 import * as sevenModule from './07_modules'
 import defModule from './07_modules'
 
-describe('Modules', () => {
+describe.skip('Modules', () => {
     it('should allow importing symbols', () => {
         expect(SEVEN).to.equal(7);
         expect(getSeven()).to.equal(7);

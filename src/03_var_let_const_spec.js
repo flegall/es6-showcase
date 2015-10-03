@@ -1,6 +1,6 @@
 import {chai, expect} from './imports';
 
-describe('Var/Let/Const', () => {
+describe.skip('Var/Let/Const', () => {
 
     it('var should be scoped in a function', () => {
         var value = 0;

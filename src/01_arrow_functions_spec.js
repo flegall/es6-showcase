@@ -1,7 +1,7 @@
 import {chai, expect} from './imports';
 import {ArrowFunctions} from './01_arrow_functions';
 
-describe('Arrow functions', () => {
+describe.skip('Arrow functions', () => {
 
     it('should allow expression bodies', () => {
         let arrowFunctions = new ArrowFunctions();

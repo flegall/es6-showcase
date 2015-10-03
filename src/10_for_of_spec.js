@@ -1,6 +1,6 @@
 import {chai, expect} from './imports';
 
-describe('For-of', () => {
+describe.skip('For-of', () => {
     it('should iterate on values', () => {
         let array = [3, 5, 7];
         let values = [];

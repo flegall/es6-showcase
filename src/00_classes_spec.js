@@ -1,7 +1,7 @@
 import {chai, expect} from './imports';
 import {Shape, Circle} from './00_classes';
 
-describe('Classes', () => {
+describe.skip('Classes', () => {
     it('should have a constructor', () => {
         let shape = new Shape('1', 3, 4);
 
@@ -25,7 +25,7 @@ describe('Classes', () => {
     });
 });
 
-describe('Classes with inheritance', () => {
+describe.skip('Classes with inheritance', () => {
     it('should have a constructor', () => {
         let circle = new Circle('1', 3, 4, 5);
         expect(circle.x).to.equal(3);
@@ -40,7 +40,7 @@ describe('Classes with inheritance', () => {
     });
 });
 
-describe('Static members', () => {
+describe.skip('Static members', () => {
     it('should allow having a Circle.defaultCircle() static method', () => {
         let circle = Circle.defaultCircle();
         expect(circle.x).to.equal(10);
@@ -48,7 +48,7 @@ describe('Static members', () => {
     })
 });
 
-describe('Getters and setters', () => {
+describe.skip('Getters and setters', () => {
     it('getter should be present on Circle', () => {
         let circle = Circle.defaultCircle();
         expect(circle.abscisse).to.equal(10);

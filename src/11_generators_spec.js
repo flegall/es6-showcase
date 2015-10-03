@@ -1,6 +1,6 @@
 import {chai, expect} from './imports';
 
-describe('A generator', () => {
+describe.skip('A generator', () => {
     it('is a special kind of functions that generate results when iterating', () => {
         function* fibonacci (numbers) {
             let pre = 0, cur = 1;

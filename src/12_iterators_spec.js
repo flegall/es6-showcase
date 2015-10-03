@@ -1,6 +1,6 @@
 import {chai, expect} from './imports';
 
-describe('An iterator', () => {
+describe.skip('An iterator', () => {
     it('is a special kind of symbol that generate results when iterating', () => {
         let fibonacci = {
             [Symbol.iterator]() {

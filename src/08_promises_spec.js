@@ -1,7 +1,7 @@
 import {chai, expect} from './imports';
 import * as bookLibrary from './08_promises';
 
-describe('Promises', () => {
+describe.skip('Promises', () => {
     it('should allow a better syntax than', () => {
         bookLibrary.searchBookWithCallback('Les fleurs du mal', (bookReference) => {
             expect(bookReference.title).to.equal('Les fleurs du mal');

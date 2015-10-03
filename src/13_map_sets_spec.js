@@ -1,6 +1,6 @@
 import {chai, expect} from './imports';
 
-describe('Set', () => {
+describe.skip('Set', () => {
     it('provide a set implementation', () => {
         let set = new Set();
         set.add("hello").add("goodbye").add("hello");
@@ -17,7 +17,7 @@ describe('Set', () => {
     });
 });
 
-describe('Map', () => {
+describe.skip('Map', () => {
     it('provide a map implementation', () => {
         let map = new Map();
         map.set('42', 42);
