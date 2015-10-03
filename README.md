@@ -2,4 +2,9 @@
 
 
 # ES6 show-case
-Demo of ES6 featuresg
+Demo of some ES6 features 
+ 
+## How to run it : 
+
+    npm install
+    npm test
