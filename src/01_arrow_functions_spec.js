@@ -1,5 +1,5 @@
 import {chai, expect} from './imports';
-import {ArrowFunctions} from './1_arrow_functions';
+import {ArrowFunctions} from './01_arrow_functions';
 
 describe('Arrow functions', () => {
 

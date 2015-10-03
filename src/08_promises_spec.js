@@ -1,5 +1,5 @@
 import {chai, expect} from './imports';
-import * as bookLibrary from './8_promises';
+import * as bookLibrary from './08_promises';
 
 describe('Promises', () => {
     it('should allow a better syntax than', () => {

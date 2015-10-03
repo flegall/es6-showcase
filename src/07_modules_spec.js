@@ -1,8 +1,8 @@
 import {chai, expect} from './imports';
 
-import {SEVEN, getSeven} from './7_modules';
-import * as sevenModule from './7_modules'
-import defModule from './7_modules'
+import {SEVEN, getSeven} from './07_modules';
+import * as sevenModule from './07_modules'
+import defModule from './07_modules'
 
 describe('Modules', () => {
     it('should allow importing symbols', () => {
@@ -21,7 +21,7 @@ describe('Modules', () => {
     });
 
     it('default symbol should be requirable', () => {
-        let defSymbol = require('./7_modules');
+        let defSymbol = require('./07_modules');
         expect(defSymbol.SEVEN).to.equal(7);
         expect(defSymbol.getSeven()).to.equal(7);
     });
